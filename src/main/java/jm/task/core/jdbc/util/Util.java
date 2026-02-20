@@ -52,8 +52,4 @@ public class Util {
         return SESSION_FACTORY;
     }
 
-    // Не обязательно для тестов, но полезно (например, если будешь закрывать приложение вручную)
-    public static void shutdown() {
-        SESSION_FACTORY.close();
-    }
 }
